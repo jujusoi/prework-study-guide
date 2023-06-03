@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue; /* modifies background color of element (all area contained within border) */
+    color: white; /* changes color of all elements within header/footer to white */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    display: block; /* assigns element to start on a new line */
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto; /* automatically centers element within container */
+}
+
+ul {
+    padding-left: 40px; /* increases left padding to space it further away from the left of the page */
+    font-size: 20px; /* increases font size */
+}
+
+p {
+    text-align: center; /* aligns text to the center of the page */
+    font-size: 30px; /* increases font size */
+}
+
+.card {
+    width: 80%;  /* 80% of the available width */
+    margin: 40px auto; /* assigns 40px to the top and bottom of the margin, and auto (normal on the left and right) */
+    border: 5px solid gray; /* makes the border around the class elements 5px wide, assigns their line type to solid (normal), and makes the color gray. */
+    box-shadow: 5px 10px #888888; /* adds shadow effect around element frame. X offset comes first, Y offset comes second. */
+}

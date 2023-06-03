@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./assets//style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,11 +36,11 @@
           <li>Like head elements, there are also Semantic elements. Semantic elements are children of the body, but are there to properly structure the page. For example.
             <ol>
               <li>Header</li>
-              <p>The header is the first step in body element organisation. It appears at the top of the page, and usually contains a navigation menu and introductory content.</p>
+            The header is the first step in body element organisation. It appears at the top of the page, and usually contains a navigation menu and introductory content.
               <li>Main</li>
-              <p>The main is the main area of content for the body. It provides the user with chunks of information and resources.</p>
+              The main is the main area of content for the body. It provides the user with chunks of information and resources.
               <li>Footer</li>
-              <p>The footer appears at the bottom of a apge, usually containing information such as author, copyright, contacts, sitemaps and further navigation.</p>
+              The footer appears at the bottom of a apge, usually containing information such as author, copyright, contacts, sitemaps and further navigation.
             </ol>
           </li>
         </ul>
@@ -47,7 +48,29 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A programming language used to define how webpage content is presented to users (formatting html with stylistic rules and options)</li>
+          <li>There are 3 types of CSS styling options:
+            <ol>
+              <li>Inline CSS</li>
+              Used to style an element directly in the html file (inside an element tag).
+              <li>Internal CSS</li>
+              Used to style elements within the head element of a html file (inside the head, style child element)
+              <li>External CSS</li>
+              Separate, linked CSS files referenced in the head of the html page which allows devs to remotely edit CSS rules in another document.
+            </ol>
+          </li>
+          <li>In a declaration block, start off with the selector, followed by curved brackets, with a property:value; end bracket.
+            Like such: div {color:blue; text-align: justify;}
+          </li>
+          <li>There are lots of properties in CSS, however some basic structural properties include margin, padding, text-align, and display.
+            <ul>
+              <li>Margin: Indicates how much space is wanted outside of an element</li>
+              <li>Padding: Indicates how much space is wanted inside the element</li>
+              <li>Text-align: A way to center or displace an element on an axis</li>
+              <li>Display: Displays content on the page differently depending on the value attributed.</li>
+            </ul>
+          </li>
+          <li>You can also attribute CSS rules to a whole bunch of elements under the same code using class selectors. Attributing a class to a html element will allow you to use it as a CSS selector via .classname</li>
         </ul>
       </section>
       <section class="card" id="git-section">
