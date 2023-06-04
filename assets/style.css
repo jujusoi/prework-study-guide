@@ -27,9 +27,20 @@ ul {
     font-size: 20px; /* increases font size */
 }
 
+ol {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 5px;
+}
+
 p {
     text-align: center; /* aligns text to the center of the page */
-    font-size: 30px; /* increases font size */
+    font-size: 25px; /* increases font size */
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .card {
