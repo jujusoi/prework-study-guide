@@ -110,7 +110,81 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here.</li>
+          <li>JavaScript is a high-level dynamic programming language, that allows users to interact with websites.</li>
+          <li>With JavaScript you can add effects, interactivity, data communication, and more to your website.</li>
+          <li>There are many value types associated with JavaScript, which can be parented by variables. Some include:
+            <ol>
+              <li>Undefined</li>
+              <li>Null</li>
+              <li>Boolean</li>
+              <li>Number</li>
+              <li>BigInt</li>
+              <li>String</li>
+              <li>Symbol</li>
+            </ol>
+          </li>
+          <li>Variables in JavaScript is simply a named container that allows devs to store such values, known as data.</li>
+          <li>To declare variables, the "var" keyword is used, followed by a variable name and an assignment operator to assign specific data into said variable.</li>
+          <li>Control flow is the order in which a computer executes code in a script, going from the first statement at the top of the page, to the last, at the bottom.</li>
+          <p>Conditional Statements
+            <ul>
+             <li>If Statement: A way of introucting decision-making into our code. An if statement will mean that code only executes if a certain condition is met, or if the outcome is equalivent to true.</li>
+             <code>if (condition) {
+              //code runs
+              else if (condition)
+              //code runs
+             }
+             </code>
+            </ul>
+          </p>
+          <p>Arrays
+            <ul>
+              <li>Arrays are single variables that are used to contain a group of data. Data in arrays are usually related in some form, and don't have to be the same value type.</li>
+              <code>var shapes = ["triangle", "square", "pentagon", "circle"];</code>
+              <li>Every piece of data within an Array is attributed an 'index' number, which allows devs to pick a certain value out of an array to work with it.</li>
+              <li>Index numbers increment 1 for every item in an Array, and starts at 0.</li>
+            </ul>
+          </p>
+          <p>For Loops
+          <ul>
+            <li>A for loop uses the predictable pattern of indices to perform a task items in an array (or other things) by allowing a single code block to be executed multiple times.</li>
+            <li>For loops must be paired with if statements, to provide a condition for the loop in the first place.</li>
+            <li>A for loop contains 3 important statements:
+              <ol>
+                <li>Starting point: Variable declaration -</li>
+                <code>var x = 0;</code>
+                <li>Condition (If statement):</li>
+                <code>x < array.length;</code>
+                <li>Result: If condition, then execute... -</li>
+                <code>x++ (or, x+1)</code>
+                <li>When combined, the above turns into the following For Loop:</li>
+                <code>for (var x = 0; x < array.length; x++) {
+                  console.log(array[x]);
+                }</code>
+              </ol>
+            </li>
+          </ul>
+        </p>
+        <p>Functions</p>
+        <ul>
+          <li>Functions are a set of instructions that tells the computer how to perform a certain task. Essentially, a function allows devs to run specific sets of code under a single name, which can be reused as many times as necessary.</li>
+          <li>Functions will only work if you have defined one and proceeded to call it somewhere else in the JS file.</li>
+           <ol>
+            <li>To define:
+              <code>function makeTea() {
+              //code block }
+            </code>
+          State function, proceed with function name followed by brackets, and a code block.</li>
+          <li>
+            To call
+            <code>
+              makeTea()
+            </code>
+            Write function name somewhere in JS file, and it will run anywhere in the control flow where it's called.
+          </li>
+           </ol>
+       
+        </ul>
         </ul>
  </section>
     </main>
